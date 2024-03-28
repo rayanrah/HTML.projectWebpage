@@ -5,36 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pâtisserie Lenté</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sign-up-form.css">
     </head>
 <body>
+    <div class="header-container content-section">
+        <div class="container">
+            <img src="logo.png" class="logo" alt="logo of the Pâtisserie Lenté">
+            <p>Pâtisserie Lenté</p>      
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Book</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    <div class="container">
-        <img src="logo.png" class="logo" alt="logo of the Pâtisserie Lenté">
-        <h1 class="header">Pâtisserie Lenté</h1>      
-      </div>
-  
-      <Nav class="menu">
-          <ul>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Address</a></li>
-          </ul>
-      </Nav>
-
-    
-<div class="block-image-right">
-
-    <div class="welcome-text">
+    <div class="content-section">
         <h1>Welcome to Pâtisserie Lenté!</h1>
+        <div class="block-image-right">
+        <div class="welcome-text">
         <p>Discover the essence of French pastry at Pâtisserie Lenté.</p>
         <p>At our charming pastry haven, we're on a mission to whisk you away on a magical journey with every delightful bite of our heavenly French pastries.</p>        
         <p>So come on in, take a seat, and treat yourself to a slice of paradise at Pâtisserie Lenté. We can't wait to share our passion for pastry and coffee with you!</p>
+        </div>
+        <img class="image-right" src="pastries-image-2.jpg" alt="">
+        </div>
+
+        <hr class="my-hr-class">
+
+        <h2>What is pâtisserie?</h2>
+        <p>
+           Pâtisserie is used to describe French pastries and the pastry shop they are sold in.
+        </p>
+
+        <p> 
+            Although the word is used quite liberally in English-speaking countries, in France and Belgium the law restricts its use to bakeries who employ licensed maître pâtissier (master pastry chefs).
+        </p>
+
+        <hr class="my-hr-class">
+
+        <h2>Specialty Coffee</h2>
+        
+        <p>
+            We proudly serve Caffe Vita’s delicious coffee blends and single origins.
+        </p>
+
+        <p> 
+            They are pioneers in the Farm Direct movement where coffees are sourced directly from farmers that are committed to sustainable practices. All coffees are roasted to order and delivered weekly by our Brooklyn based roaster.
+        </p>
+
+        <!--This section is for three row images-->
+
+        <div class="image-row">
+            <img src="Specialty Coffee.image.1.jpg" alt="Image 1">
+            <img src="Specialty Coffee.image.2.jpeg" alt="Image 2">
+            <img src="Specialty Coffee0image.3.jpeg" alt="Image 3">
+        </div>
+        
+        <hr class="my-hr-class">
+
+        <!--This section is for the Form-->
+
+        <div class="form-container">
+            <h2>Reserve a Table</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
     </div>
 
-    <img class="image-right" src="pastries-image-2.jpg" alt="">
-</div>
-
+            <!--This section is for the Footer-->
 
 <footer>
+    <div class="footer-content">
+        <div class="address">
+            <p>33 rue de la République</p>
+            <p>60600 Clermont</p>
+            <p>France</p>
+        </div>
+    </div>
     <p>&copy; 2024 Pâtisserie Lenté. All rights reserved.</p>
 </footer>
     
